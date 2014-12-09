@@ -9,5 +9,5 @@ angular.module('myApp', [
   'myApp.filters'
 ]).
 config(['$routeProvider', function($routeProvider) {
-      $routeProvider.when('/', {templateUrl: 'partials/landingpage.html', controller: 'LandingPageCtrl'});
+      $routeProvider.when('/', {templateUrl: 'views/landingpage.html', controller: 'LandingPageCtrl'});
 }]);
