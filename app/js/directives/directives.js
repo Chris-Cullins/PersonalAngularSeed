@@ -1,9 +1,8 @@
-/**
- * Created by Chris on 12/7/2014.
- */
-'use strict';
+(function () {
+    'use strict';
 
-/* Directives */
+    /* Directives */
 
 
-angular.module('myApp.directives', []);
+    angular.module('myApp');
+})();

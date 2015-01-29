@@ -1,6 +1,13 @@
-'use strict';
+(function () {
+    'use strict';
 
-angular.module('myApp.controllers', [])
-    .controller('LandingPageCtrl', ['$scope', function($scope) {
+    angular.module('myApp')
+        .controller('LandingPageController', LandingPageController);
 
-    }]);
+
+    function LandingPageController() {
+
+        this.name = "Landing Page"
+
+    }
+})();

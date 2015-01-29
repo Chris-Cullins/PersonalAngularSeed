@@ -1,8 +1,8 @@
-/**
- * Created by Chris on 12/7/2014.
- */
-'use strict';
+(function () {
+    'use strict';
 
-/* Filters */
+    /* Filters */
 
-angular.module('myApp.filters', []);
+    angular.module('myApp');
+
+})();
